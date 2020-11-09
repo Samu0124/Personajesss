@@ -1,0 +1,409 @@
+.fondo{
+	width: 100%;
+	height: 100%;
+	background-color: #B4ECE9;
+	z-index: -5;
+}
+
+.a{
+	position: absolute;
+	top: 20px;
+	left: -20px;
+	width: 150px;
+	height: 200px;
+	background-image: url(B.png);
+	animation: prueba;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+.a2{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	width: 150px;
+	height: 200px;
+	background-image: url(B.png);
+}
+
+@keyframes prueba {
+	20%{top: -5px; left: -15px;}
+	40%{top: 15px; left: -5px;}
+	60%{top: 5px; left: 0px;}
+	80%{top: 10px; left: 5px;}
+	100%{top: 20px; left: 10px;}
+}
+.b{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	width: 100px;
+	height: 200px;
+	background-image: url(I.png);
+	animation: prueba1;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+.b2{
+	position: absolute;
+	top: 20px;
+	left: 130px;
+	width: 100px;
+	height: 280px;
+	background-image: url(I.png);
+}
+
+@keyframes prueba1 {
+	20%{top: -5px; left: 30px;}
+	40%{top: 15px; left: 40px;}
+	60%{top: 5px; left: 50px;}
+	80%{top: 10px; left: 60px;}
+	100%{top: 20px; left: 130px;}
+}
+
+.c{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	width: 150px;
+	height: 200px;
+	background-image: url(E.png);
+	animation: prueba2;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+.c2{
+	position: absolute;
+	top: 20px;
+	left: 210px;
+	width: 150px;
+	height: 200px;
+	background-image: url(E.png);
+}
+
+@keyframes prueba2 {
+	20%{top: -5px; left: 30px;}
+	40%{top: 15px; left: 40px;}
+	60%{top: 5px; left: 50px;}
+	80%{top: 10px; left: 60px;}
+	100%{top: 20px; left: 210px;}
+}
+
+.d{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	width: 155px;
+	height: 200px;
+	background-image: url(N.png);
+	animation: prueba3;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+.d2{
+	position: absolute;
+	top: 20px;
+	left: 330px;
+	width: 155px;
+	height: 200px;
+	background-image: url(N.png);
+}
+
+@keyframes prueba3 {
+	20%{top: -5px; left: 30px;}
+	40%{top: 15px; left: 40px;}
+	60%{top: 5px; left: 50px;}
+	80%{top: 10px; left: 60px;}
+	100%{top: 20px; left: 330px;}
+}
+
+.e{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	width: 150px;
+	height: 200px;
+	background-image: url(V.png);
+	animation: prueba4;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+.e2{
+	position: absolute;
+	top: 20px;
+	left:475px;
+	width: 150px;
+	height: 200px;
+	background-image: url(V.png);
+}
+
+@keyframes prueba4 {
+	20%{top: -5px; left: 30px;}
+	40%{top: 15px; left: 40px;}
+	60%{top: 5px; left: 50px;}
+	80%{top: 10px; left: 60px;}
+	100%{top: 20px; left: 475px;}
+}
+
+.f{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	width: 150px;
+	height: 200px;
+	background-image: url(E1.png);
+	animation: prueba5;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+.f2{
+	position: absolute;
+	top: 20px;
+	left: 610px;
+	width: 150px;
+	height: 200px;
+	background-image: url(E1.png);
+}
+
+@keyframes prueba5 {
+	20%{top: -5px; left: 30px;}
+	40%{top: 15px; left: 40px;}
+	60%{top: 5px; left: 50px;}
+	80%{top: 10px; left: 60px;}
+	100%{top: 20px; left: 610px;}
+}
+
+.g{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	width: 160px;
+	height: 200px;
+	background-image: url(N1.png);
+	animation: prueba6;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+.g2{
+	position: absolute;
+	top: 20px;
+	left: 730px;
+	width: 160px;
+	height: 200px;
+	background-image: url(N1.png);
+}
+
+@keyframes prueba6 {
+	20%{top: -5px; left: 30px;}
+	40%{top: 15px; left: 40px;}
+	60%{top: 5px; left: 50px;}
+	80%{top: 10px; left: 60px;}
+	100%{top: 20px; left: 730px;}
+}
+
+.h{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	width: 120px;
+	height: 200px;
+	background-image: url(I1.png);
+	animation: prueba10;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+.h2{
+	position: absolute;
+	top: 20px;
+	left: 870px;
+	width: 120px;
+	height: 200px;
+	background-image: url(I1.png);
+}
+
+@keyframes prueba10 {
+	20%{top: -5px; left: 30px;}
+	40%{top: 15px; left: 40px;}
+	60%{top: 5px; left: 50px;}
+	80%{top: 10px; left: 60px;}
+	100%{top: 20px; left: 870px;}
+}
+
+.i{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	width: 160px;
+	height: 200px;
+	background-image: url(D.png);
+	animation: prueba7;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+.i2{
+	position: absolute;
+	top: 20px;
+	left: 950px;
+	width: 160px;
+	height: 200px;
+	background-image: url(D.png);
+}
+
+@keyframes prueba7 {
+	20%{top: -5px; left: 30px;}
+	40%{top: 15px; left: 40px;}
+	60%{top: 5px; left: 50px;}
+	80%{top: 10px; left: 60px;}
+	100%{top: 20px; left: 950px;}
+}
+.j{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	width: 160px;
+	height: 200px;
+	background-image: url(O.png);
+	animation: prueba8;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+.j2{
+	position: absolute;
+	top: 20px;
+	left: 1090px;
+	width: 160px;
+	height: 200px;
+	background-image: url(O.png);
+}
+
+@keyframes prueba8 {
+	20%{top: -5px; left: 30px;}
+	40%{top: 15px; left: 40px;}
+	60%{top: 5px; left: 50px;}
+	80%{top: 10px; left: 60px;}
+	100%{top: 20px; left: 1090px;}
+}
+
+.k{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	width: 120px;
+	height: 200px;
+	background-image: url(S.png);
+	animation: prueba9;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+.k2{
+	position: absolute;
+	top: 20px;
+	left: 1230px;
+	width: 120px;
+	height: 200px;
+	background-image: url(S.png);
+}
+
+@keyframes prueba9 {
+	20%{top: -5px; left: 30px;}
+	40%{top: 15px; left: 40px;}
+	60%{top: 5px; left: 50px;}
+	80%{top: 10px; left: 60px;}
+	100%{top: 20px; left: 1230px;}
+}
+
+.myButton {
+	position: absolute;
+	top: 350px;
+    left: 680px;
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #0f1a2e 5%, #2abfb8 100%);
+	background-color:#0f1a2e;
+	border-radius:28px;
+	border:2px solid #31e8ab;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:26px;
+	padding:16px 39px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #003dd9;
+	animation: pruebaa;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+@keyframes pruebaa {
+	20%{top: 1000px; left: 680px;}
+	40%{top: 700px; left: 680px;}
+	60%{top: 600px; left: 680px;}
+	80%{top: 450px; left: 680px;}
+	100%{top: 350px; left: 680px;}
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #2abfb8 5%, #0f1a2e 100%);
+	background-color:#2abfb8;
+}
+.myusd {
+	position: absolute;
+	top: 350px;
+    left: 490px;
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #040505 5%, #f0fafa 100%);
+	background-color:#040505;
+	border-radius:28px;
+	border:2px solid #949494;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:26px;
+	padding:16px 39px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #003dd9;
+	animation: pruebab;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+@keyframes pruebab {
+	20%{top: 1000px; left: 490px;}
+	40%{top: 700px; left: 490px;}
+	60%{top: 600px; left: 490px;}
+	80%{top: 450px; left: 490px;}
+	100%{top: 350px; left: 490px;}
+}
+.myusd:hover {
+	background:linear-gradient(to bottom, #f0fafa 5%, #040505 100%);
+	background-color:#f0fafa;
+}
+.dfj {
+	position: absolute;
+	top: 450px;
+    left: 550px;
+	box-shadow: 0px 0px 0px 2px #d4657c;
+	background:linear-gradient(to bottom, #e31616 5%, #9c4646 100%);
+	background-color:#e31616;
+	border-radius:16px;
+	border:1px solid #610a0a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #db091a;
+		animation: pruebabfd;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+@keyframes pruebabfd {
+	20%{top: 1000px; left: 550px;}
+	40%{top: 700px; left: 550px;}
+	60%{top: 600px; left: 550px;}
+	80%{top: 500px; left: 550px;}
+	100%{top: 450px; left: 550px;}
+}
+.dfj:hover {
+	background:linear-gradient(to bottom, #9c4646 5%, #e31616 100%);
+	background-color:#9c4646;
+}

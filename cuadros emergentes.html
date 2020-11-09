@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title></title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="estilos1.css">
+<button onclick="fg()">Abrir</button>
+<div id="container"></div> 
+        
+        <div class="emergente">
+                <br>
+                 <br>
+
+                   
+        <div class="hola">Este botón nos dirige a la siguente animación</div> 
+       <div class="boton menor">X</div>
+</div>
+<script type="text/javascript">
+window.onload = init;
+    function init(){
+        document.querySelector(".emergente").style.display="none";
+        document.querySelector(".emergente .menor").addEventListener("click",adios);
+
+    }
+        
+    function adios(){
+               document.querySelector(".emergente").style.display="none";
+}    
+function fg() {
+                       document.querySelector(".emergente").style.display="block";
+}
+</script>
+</body>
+</html>

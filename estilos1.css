@@ -1,0 +1,489 @@
+.fondo{
+	width: 100%;
+	height: 100%;
+	background-color: #B4ECE9;
+	z-index: -5;
+}
+.fondo1{
+	width: 100%;
+	height: 100%;
+	background-color: #B4ECE9;
+	z-index: -5;
+}
+.fondo2{
+	width: 100%;
+	height: 100%;
+	background-color: #B4ECE9;
+	z-index: -5;
+}
+.myButton {
+	position: absolute;
+	top: 30px;
+    left: 30px;
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #0f1a2e 5%, #2abfb8 100%);
+	background-color:#0f1a2e;
+	border-radius:28px;
+	border:2px solid #31e8ab;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:26px;
+	padding:16px 39px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #003dd9;
+	animation: pruebaa;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+@keyframes pruebaa {
+	20%{top: 1000px; left: 30px;}
+	40%{top: 800px; left: 30px;}
+	60%{top: 600px; left: 30px;}
+	80%{top: 200px; left: 30px;}
+	100%{top: 30px; left: 30px;}
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #2abfb8 5%, #0f1a2e 100%);
+	background-color:#2abfb8;
+}
+.myButton1 {
+	position: absolute;
+	top: 210px;
+    left: 35px;
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #090547 5%, #1e70d4 100%);
+	background-color:#090547;
+	border-radius:28px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+		animation: pruebac;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+@keyframes pruebac {
+	20%{top: 1000px; left: 35px;}
+	40%{top: 800px; left: 35px;}
+	60%{top: 600px; left: 35px;}
+	80%{top: 350px; left: 35px;}
+	100%{top: 210px; left: 35px;}
+}
+.myButton1:hover {
+	background:linear-gradient(to bottom, #1e70d4 5%, #090547 100%);
+	background-color:#1e70d4;
+}
+
+.myusd {
+	position: absolute;
+	top: 120px;
+    left: 32px;
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #040505 5%, #f0fafa 100%);
+	background-color:#040505;
+	border-radius:28px;
+	border:2px solid #949494;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:26px;
+	padding:16px 39px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #003dd9;
+	animation: pruebab;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+@keyframes pruebab {
+	20%{top: 1000px; left: 32px;}
+	40%{top: 800px; left: 32px;}
+	60%{top: 600px; left: 32px;}
+	80%{top: 200px; left: 32px;}
+	100%{top: 120px; left: 32px;}
+}
+.myusd:hover {
+	background:linear-gradient(to bottom, #f0fafa 5%, #040505 100%);
+	background-color:#f0fafa;
+}
+
+.robb{
+position: absolute;
+top: 100px;
+left: 300px;
+width: 400px; 
+height: 520px;
+background-image: url(Robb1.JPG);
+border-radius: 30px;
+	animation: prueba1;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+@keyframes prueba1 {
+	20%{top: 100px; left: -400px;}
+	40%{top: 100px; left: -200px;}
+	60%{top: 100px; left: 0px;}
+	80%{top: 100px; left: 150px;}
+	100%{top: 100px; left: 300px;}
+}
+
+.theo{
+position: absolute;
+top: 100px;
+left: 800px;
+width: 400px; 
+height: 520px;
+background-image: url(theo1.JPG);
+border-radius: 30px;
+	animation: prueba2;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+@keyframes prueba2 {
+	20%{top: 100px; left: -400px;}
+	40%{top: 100px; left: -200px;}
+	60%{top: 100px; left: 100px;}
+	80%{top: 100px; left: 400px;}
+	100%{top: 100px; left: 800px;}
+}
+
+.milovan{
+position: absolute;
+top: 800px;
+left: 300px;
+width: 400px; 
+height: 520px;
+background-image: url(milovan1.JPG);
+border-radius: 30px;
+	animation: prueba3;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+@keyframes prueba3 {
+	20%{top: 800px; left: -400px;}
+	40%{top: 800px; left: -200px;}
+	60%{top: 800px; left: 0px;}
+	80%{top: 800px; left: 150px;}
+	100%{top: 800px; left: 300px;}
+}
+
+.jara{
+position: absolute;
+top: 800px;
+left: 800px;
+width: 400px; 
+height: 520px;
+background-image: url(jara1.JPG);
+border-radius: 30px;
+	animation: prueba4;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+@keyframes prueba4 {
+	20%{top: 800px; left: -400px;}
+	40%{top: 800px; left: -200px;}
+	60%{top: 800px; left: 100px;}
+	80%{top: 800px; left: 400px;}
+	100%{top: 800px; left: 800px;}
+}
+
+.amapola{
+position: absolute;
+top: 1500px;
+left: 300px;
+width: 400px; 
+height: 520px;
+background-image: url(amapola.JPG);
+border-radius: 30px;
+	animation: prueba5;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+@keyframes prueba5 {
+	20%{top: 1500px; left: -400px;}
+	40%{top: 1500px; left: -200px;}
+	60%{top: 1500px; left: 0px;}
+	80%{top: 1500px; left: 150px;}
+	100%{top: 1500px; left: 300px;}
+}
+
+.zlatan{
+position: absolute;
+top: 1500px;
+left: 800px;
+width: 400px; 
+height: 520px;
+background-image: url(zlatan.JPG);
+border-radius: 30px;
+	animation: prueba6;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+@keyframes prueba6 {
+	20%{top: 1500px; left: -400px;}
+	40%{top: 1500px; left: -200px;}
+	60%{top: 1500px; left: 100px;}
+	80%{top: 1500px; left: 400px;}
+	100%{top: 1500px; left: 800px;}
+}
+
+.gif{
+	position: absolute;
+	top: 100px;
+	left: 700px;
+	width: 500px;
+	height: 500px;
+	background-image: url(Despedida-de-robb.gif);
+}
+
+.letra{
+	position: absolute;
+	top: 100px;
+	font-family: dsaa;
+		animation: pruebaas;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+@keyframes pruebaas {
+	20%{top: -250px;}
+	40%{top: -150px;}
+	60%{top: 0px;}
+	80%{top: 50px;}
+	100%{top: 100px;}
+}
+.letra1{
+	position: absolute;
+	top: 240px;
+	left: 30px;
+	font-family: dsaa;
+		animation: pruebaass;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+@keyframes pruebaass {
+	20%{top: -550px; left: 30px;}
+	40%{top: -200px; left: 30px;}
+	60%{top: 0px; left: 30px;}
+	80%{top: 100px; left: 30px;}
+	100%{top: 240px; left: 30px;}
+}
+@font-face{
+	font-family: dsaa;
+	src: url("SyneMono-Regular.ttf");
+}
+
+.jdaso {
+	position: absolute;
+	top: 550px;
+	left: 50px;
+	box-shadow: 0px 0px 0px 2px #a31818;
+	background:linear-gradient(to bottom, #de2424 5%, #d99143 100%);
+	background-color:#de2424;
+	border-radius:24px;
+	border:1px solid #ffaf38;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+		animation: pruebas;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	z-index: 5;
+}
+@keyframes pruebas {
+	20%{top: 550px; left: 2000px;}
+	40%{top: 550px; left: 1000px;}
+	60%{top: 550px; left: 500px;}
+	80%{top: 550px; left: 150px;}
+	100%{top: 550px; left: 50px;}
+}
+.jdaso:hover {
+	background:linear-gradient(to bottom, #d99143 5%, #de2424 100%);
+	background-color:#d99143;
+}
+    .emergente{
+    	position: absolute;
+    	top: 516px;
+    	left: 1100px;
+        width:200px;
+        height:100px;
+        background-color:#5C70F0;
+        font-size: 20px;
+        border:1px solid #000;
+        border-radius:10px;
+        text-align: center;
+        padding:20px;
+        box-shadow: 10px 10px 10px #ccc;
+        z-index: 4;
+        	animation: entra;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	z-index: 5;
+    }
+
+@keyframes entra {
+	50%{top: 600px; left: 1100px;}
+	100%{top: 516px; left: 1100px;}
+}
+    .emergente p{
+        font-size:50px;
+    }
+
+    .emergente .boton{
+    	position: relative;
+        top: -100px;
+        left: 160px;
+        font-size:20px;
+        padding:10px;
+        border:1px solid #000;
+        border-radius:30px;
+
+        width:20px;
+        background-color:#F5800B; 
+        z-index: 5;
+    }
+      .menor{background-color:#FAF0E6;}
+    .menor:hover{background-color:#00ff00;}
+
+        .emergente1{
+    	position: absolute;
+    	top: 100px;
+    	left: 550px;
+        width:200px;
+        height:100px;
+        background-color:#5C70F0;
+        font-size: 20px;
+        border:1px solid #000;
+        border-radius:10px;
+        text-align: center;
+        padding:20px;
+        box-shadow: 10px 10px 10px #ccc;
+        z-index: 4;
+        	animation: entraa;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	z-index: 5;
+    }
+
+@keyframes entraa {
+	50%{top: -50px; left: 550px;}
+	100%{top: 100px; left: 550px;}
+}
+    .emergente1 p{
+        font-size:50px;
+    }
+
+    .emergente1 .boton{
+    	position: relative;
+        top: -100px;
+        left: 160px;
+        font-size:20px;
+        padding:10px;
+        border:1px solid #000;
+        border-radius:30px;
+
+        width:20px;
+        background-color:#F5800B; 
+        z-index: 5;
+    }
+      .menor1{background-color:#FAF0E6;}
+    .menor1:hover{background-color:#00ff00;}
+
+            .emergente2{
+    	position: absolute;
+    	top: 100px;
+    	left: 550px;
+        width:200px;
+        height:100px;
+        background-color:#5C70F0;
+        font-size: 20px;
+        border:1px solid #000;
+        border-radius:10px;
+        text-align: center;
+        padding:20px;
+        box-shadow: 10px 10px 10px #ccc;
+        z-index: 4;
+        	animation: entraa;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	z-index: 5;
+    }
+
+@keyframes entraa {
+	50%{top: -50px; left: 550px;}
+	100%{top: 100px; left: 550px;}
+}
+    .emergente2 p{
+        font-size:50px;
+    }
+
+    .emergente2 .boton{
+    	position: relative;
+        top: -100px;
+        left: 160px;
+        font-size:20px;
+        padding:10px;
+        border:1px solid #000;
+        border-radius:30px;
+
+        width:20px;
+        background-color:#F5800B; 
+        z-index: 5;
+    }
+      .menor2{background-color:#FAF0E6;}
+    .menor2:hover{background-color:#00ff00;}
+
+          .emergente3{
+    	position: absolute;
+    	top: 350px;
+    	left: 850px;
+        width:200px;
+        height:100px;
+        background-color:#5C70F0;
+        font-size: 20px;
+        border:1px solid #000;
+        border-radius:10px;
+        text-align: center;
+        padding:20px;
+        box-shadow: 10px 10px 10px #ccc;
+        z-index: 4;
+        	animation: entrab;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	z-index: 5;
+    }
+
+@keyframes entrab {
+	50%{top: 500px; left: 850px;}
+	100%{top: 350px; left: 850px;}
+}
+    .emergente3 p{
+        font-size:50px;
+    }
+
+    .emergente3 .boton{
+    	position: relative;
+        top: -100px;
+        left: 160px;
+        font-size:20px;
+        padding:10px;
+        border:1px solid #000;
+        border-radius:30px;
+
+        width:20px;
+        background-color:#F5800B; 
+        z-index: 5;
+    }
+      .menor3{background-color:#FAF0E6;}
+    .menor3:hover{background-color:#00ff00;}

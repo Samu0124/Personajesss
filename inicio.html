@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inicio</title>
+</head>
+<link rel="stylesheet" type="text/css" href="estilos1.css">
+<style type="text/css">
+	.a{
+		background-image: url("Botón flecha derecha.png");
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		left: 1061px;
+		top: 105px;
+		z-index: 3;
+	}
+	.b{
+		background-image: url("Botón flecha izquierda.png");
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		left: 226px;
+		top: 105px;
+		z-index: 3;
+	}
+	.c2{
+		background-image: url("Botón corchea.png");
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		left: 226px;
+		top: 516px;
+		z-index: 3;
+	}
+	.c{
+		background-image: url("Corchea rayada.png");
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		left: 226px;
+		top: 516px;
+		z-index: 3;
+	}
+	.d{
+		background-image: url("Altavoz medio.png");
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		left: 306px;
+		top: 516px;
+		z-index: 3;
+	}
+	.d2{
+		background-image: url("Altavoz bajo.png");
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		left: 306px;
+		top: 516px;
+		z-index: 3;
+	}
+	.d3{
+		background-image: url("Altavoz alto.png");
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		left: 306px;
+		top: 516px;
+		z-index: 3;
+	}
+	.d4{
+		background-image: url("Altavoz.png");
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		left: 306px;
+		top: 516px;
+		z-index: 3;
+	}
+	.e{
+		background-image: url("Viento.png");
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		left: 901px;
+		top: 516px;
+		z-index: 3;
+	}
+	.f{
+		background-image: url("Botón lámpara.png");
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		left: 981px;
+		top: 516px;
+		z-index: 3;
+	}
+	.g{
+		background-image: url("Botón adelante.png");
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		left: 1061px;
+		top: 516px;
+		z-index: 3;
+	}
+	.Escenario{
+		background-image: url("Escenario - Pueblo 5.png");
+		position: absolute;
+		left: 221px;
+		top: 100px;
+		width: 920px;
+		height: 496px;
+		z-index: 1;
+	}
+    .h{
+		background-image: url("Botón flecha hacia arriba.png");
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		left: 306px;
+		top: 516px;
+		z-index: -2;
+	}
+	.i{
+		background-image: url("Botón flecha hacia abajo.png");
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		left: 306px;
+		top: 516px;
+		z-index: -2;
+	}
+	.h2{
+		background-image: url("Botón flecha hacia arriba.png");
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		left: 306px;
+		top: 516px;
+		z-index: 2;
+		opacity: 0%;
+		animation: arriba;
+		animation-duration: 1s;
+		animation-iteration-count: 1;
+	}
+	.i2{
+		background-image: url("Botón flecha hacia abajo.png");
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		left: 306px;
+		top: 516px;
+		z-index: 2;
+		opacity: 0%;
+		animation: abajo;
+		animation-duration: 1s;
+		animation-iteration-count: 1;
+	}
+	.h3{
+		background-image: url("Botón flecha hacia arriba.png");
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		left: 306px;
+		top: 436px;
+		z-index: 2;
+	}
+	.i3{
+		background-image: url("Botón flecha hacia abajo.png");
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		left: 306px;
+		top: 596px;
+		z-index: 2;
+	}
+	.equis{
+		background-image: url("equis.png");
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		left: 321px;
+		top: 526px;
+		z-index: -2;
+	}
+	.equis2{
+		background-image: url("equis.png");
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		left: 346px;
+		top: 550px;
+		z-index: 2;
+		animation: equis;
+		animation-duration: 1s;
+		animation-iteration-count: 1;
+	}
+	.equis3{
+		background-image: url("equis.png");
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		left: 391px;
+		top: 629px;
+		z-index: 2;
+	}
+	.equis4{
+		background-image: url("equis.png");
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		left: 391px;
+		top: 629px;
+		z-index: 2;
+		opacity: 100%;
+		animation: equises;
+		animation-duration: 1s;
+		animation-iteration-count: 1;
+	}
+	.h4{
+		background-image: url("Botón flecha hacia arriba.png");
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		left: 306px;
+		top: 436px;
+		z-index: 2;
+		opacity: 100%;
+		animation: arribaes;
+		animation-duration: 1s;
+		animation-iteration-count: 1;
+	}
+	.i4{
+		background-image: url("Botón flecha hacia abajo.png");
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		left: 306px;
+		top: 596px;
+		z-index: 2;
+		opacity: 100%;
+		animation: abajoes;
+		animation-duration: 1s;
+		animation-iteration-count: 1;
+	}
+	.centro{
+		align-items: center;
+	}
+	@keyframes equis {
+		100% {left: 391px;top: 629px;}
+	}
+	@keyframes arriba {
+		100% {top: 436px;opacity: 100%;}
+	}
+	@keyframes abajo {
+		100% {top: 596px;opacity: 100%;}
+	}
+	@keyframes equises {
+		100% {left: 321px;top: 526px;opacity: 0%;}
+	}
+	@keyframes arribaes {
+		100% {top: 516px;opacity: 0%;left: 306px;}
+	}
+	@keyframes abajoes {
+		100% {top: 516px;opacity: 0%;left: 306px;}
+	}
+</style>
+<body style="background-color:#B4ECE9">
+	<audio src="Home.mp3" preload loop id="home"></audio>
+<a href="index.html" class="myusd">Atrás</a><a href="final.html" class="myButton1">Final</a>
+<div class="a" onclick="fg1()"></div>
+<div class="b" onclick="fg2()"></div>
+<div class="c" id="nota" onclick="Cambio_corchea()"></div>
+<div class="d" id="altavoz" onclick="aparicion()"></div>
+<div class="e" onclick="fg3()"></div>
+<div class="f" onclick="fg3()"></div>
+<div class="g" onclick="fg()"></div>
+<div class="h" id="arriba" onclick="subir()"></div>
+<div class="i" id="abajo" onclick="bajar()"></div>
+<div class="equis" id="X" onclick="esconder()"></div>
+<div class="Escenario"></div>
+<script type="text/javascript">
+	function subir() {
+		var audio = document.getElementById("home");
+		var voz = document.getElementById("altavoz");
+		audio.volume += 0.1;
+		if (audio.volume==0.1) {
+			voz.className="d4";
+		} else {
+			if (audio.volume<0.5) {
+				voz.className="d2"; 
+			} else {
+				if (audio.volume<0.8) {
+					voz.className="d";
+				} else {
+					if (audio.volume<1) {
+						voz.className="d3";
+					}
+				}
+			}
+       }
+       if (audio.volume<0.1) {
+       	audio.volume=0.1;
+       }   
+	}
+	function bajar() {
+		var audio = document.getElementById("home");
+		var voz = document.getElementById("altavoz");
+		audio.volume -= 0.1;
+		if (audio.volume==0.1) {
+			voz.className="d4";
+		} else {
+			if (audio.volume<0.5) {
+				voz.className="d2"; 
+			} else {
+				if (audio.volume<0.8) {
+					voz.className="d";
+				} else {
+					if (audio.volume<1) {
+						voz.className="d3";
+					}
+				}
+			}
+       }
+       if (audio.volume<0.1) {
+       	audio.volume=0.1;
+       }      
+	}
+	function aparicion() {
+		var boton1 = document.getElementById("arriba");
+		var boton2 = document.getElementById("abajo");
+		var boton3 = document.getElementById("X");
+		boton1.className = "h2";
+		boton2.className = "i2";
+		boton3.className = "equis2"
+		setTimeout(estatico,1000);
+	}
+	function esconder() {
+		var boton1 = document.getElementById("arriba");
+		var boton2 = document.getElementById("abajo");
+		var boton3 = document.getElementById("X");
+		boton1.className = "h4";
+		boton2.className = "i4";
+		boton3.className = "equis4"
+		setTimeout(estatico2,1000);
+	}
+	function estatico() {
+		var boton1 = document.getElementById("arriba");
+		var boton2 = document.getElementById("abajo");
+		var boton3 = document.getElementById("X");
+		boton1.className = "h3";
+		boton2.className = "i3";
+		boton3.className = "equis3";
+	}
+	function estatico2() {
+		var boton1 = document.getElementById("arriba");
+		var boton2 = document.getElementById("abajo");
+		var boton3 = document.getElementById("X");
+		boton1.className = "h";
+		boton2.className = "i";
+		boton3.className = "equis";
+	}
+	function Cambio_corchea() {
+		var corchea = document.getElementById("nota");
+		if (corchea.className=="c") {
+			corchea.className="c2";
+            var audio = document.getElementById("home");
+            audio.volume = 0.5;
+            audio.play();
+		}
+		else
+		{
+			corchea.className="c"
+			var audio = document.getElementById("home");
+            audio.pause();
+		}
+	}
+	function presionar() {
+		var boton = document.getElementById("");
+		boton.className = "a2";
+	}
+	function cambio() {
+		var boton = document.getElementById("div");
+		boton.className = "a";
+	}
+
+</script>
+<div id="container"></div> 
+        
+        <div class="emergente">
+                <br>
+                 <br>
+
+                   
+        <div class="hola">Este botón nos dirige a la siguente escena</div> 
+       <div class="boton menor">X</div>
+</div>
+<script type="text/javascript">
+window.onload = init;
+    function init(){
+        document.querySelector(".emergente").style.display="none";
+        document.querySelector(".emergente1").style.display="none";
+        document.querySelector(".emergente2").style.display="none";
+        document.querySelector(".emergente3").style.display="none";
+        document.querySelector(".emergente1 .menor1").addEventListener("click",adios1);
+        document.querySelector(".emergente3 .menor3").addEventListener("click",adios3);
+        document.querySelector(".emergente2 .menor2").addEventListener("click",adios2);
+        document.querySelector(".emergente .menor").addEventListener("click",adios);
+
+    }
+        
+    function adios(){
+               document.querySelector(".emergente").style.display="none";
+}    
+function fg() {
+                       document.querySelector(".emergente").style.display="block";
+}
+</script>
+<div id="container1"></div> 
+        
+        <div class="emergente1">
+                <br>
+                 <br>
+
+                   
+        <div class="hola1">Este botón nos muestra la siguiente animación</div> 
+       <div class="boton menor1">X</div>
+</div>
+<div id="container2"></div> 
+        
+        <div class="emergente2">
+                <br>
+                 <br>
+
+                   
+        <div class="hola2">Este botón nos lleva a la anterior escena</div> 
+       <div class="boton menor2">X</div>
+</div>
+<div id="container3"></div> 
+        
+        <div class="emergente3">
+                <br>
+                 <br>
+
+                   
+        <div class="hola3">Este botón nos muestra una animación adicional</div> 
+       <div class="boton menor3">X</div>
+</div>
+<script type="text/javascript">
+  
+function adios1(){
+               document.querySelector(".emergente1").style.display="none";
+}    
+function fg1() {
+                       document.querySelector(".emergente1").style.display="block";
+}
+</script>
+<script type="text/javascript">
+  
+function adios2(){
+               document.querySelector(".emergente2").style.display="none";
+}    
+function fg2() {
+                       document.querySelector(".emergente2").style.display="block";
+}
+</script>
+<script type="text/javascript">
+  
+function adios3(){
+               document.querySelector(".emergente3").style.display="none";
+}    
+function fg3() {
+                       document.querySelector(".emergente3").style.display="block";
+}
+</script>
+
+</body>
+</html>
